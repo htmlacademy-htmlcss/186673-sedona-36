@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Поиск гостиницы в Седоне</title>
+  </head>
   <body>
     <header class="page-header">
       <a class="index-link" href="">
-        <img class="sedona-logo" src="index.html" alt="Логотип городка Седона">
+        <img class="sedona-logo" src="images/logo.svg" width="140" height="70" alt="Логотип городка Седона">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -34,6 +35,7 @@
             <span class="visually-hidden">
               Избранное
             </span>
+            <span class="favorite-badge">12</span>
           </a>
         </li>
         <li class="navigation-item">
@@ -46,7 +48,7 @@
         <h2 class="search-title">
           Гостиницы Седоны
         </h2>
-        <ul class="breadcrumbs">
+        <ol class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-home" href="index.html">
               <span class="visually-hidden">
@@ -55,11 +57,11 @@
             </a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-hotels" href="#">
+            <a class="breadcrumbs-hotels">
               Гостиницы
             </a>
           </li>
-        </ul>
+        </ol>
         <form class="hotels-form" action="https://echo.htmlacademy.ru/" method="post">
           <fieldset class="hotels-form-group">
             <legend class="form-group-title">
@@ -111,12 +113,14 @@
 
             </div>
           </fieldset>
-          <fieldset class="hotels-form-group">
-            <input class="hotels-submit" type="submit" name="hotels-submit" id="hotels-submit" value="Применить">
+          <div class="hotels-form-group">
+            <button class="hotels-submit" type="submit" name="hotels-submit">
+              Применить
+            </button>
             <button class="button hotel-reset" type="reset">
               Сбросить
             </button>
-          </fieldset>
+          </div>
         </form>
       </section>
       <section class="search-result">
@@ -145,7 +149,7 @@
         <ul class="search-result-list">
           <li class="search-result-item">
             <a class="result-item-link" href="#">
-              <img class="result-item-img" src="#" alt="Вид из Amara Resort & Spa">
+              <img class="result-item-img" src="images/catalog/hotel-1.jpg" width="300" height="212" alt="Вид из Amara Resort & Spa">
               <h3 class="result-item-title">
                 Amara Resort & Spa
               </h3>
@@ -159,7 +163,7 @@
             <a class="result-item-about" href="#">
               Подробнее
             </a>
-            <button class="result-item-in-favorites">
+            <button class="result-item-in-favorites" type="button">
               В избранное
             </button>
             <div class="result-item-star-wrapper">
@@ -174,7 +178,7 @@
           </li>
           <li class="search-result-item">
             <a class="result-item-link" href="#">
-              <img class="result-item-img" src="#" alt="Вид из Villas at Poco Diablo">
+              <img class="result-item-img" src="images/catalog/hotel-2.jpg" width="300" height="212" alt="Вид из Villas at Poco Diablo">
               <h3 class="result-item-title">
                 Villas at Poco Diablo
               </h3>
@@ -188,7 +192,7 @@
             <a  class="result-item-about" href="#">
               Подробнее
             </a>
-            <button class="result-item-in-favorites result-item-in-favorites_active">
+            <button class="result-item-in-favorites result-item-in-favorites_active" type="button">
               В избранном
             </button>
             <div class="result-item-star-wrapper">
@@ -203,7 +207,7 @@
           </li>
           <li class="search-result-item">
             <a class="result-item-link" href="#">
-              <img class="result-item-img" src="#" alt="Вид из Desert Quail Inn">
+              <img class="result-item-img" src="images/catalog/hotel-3.jpg" width="300" height="212" alt="Вид из Desert Quail Inn">
               <h3 class="result-item-title">
                 Desert Quail Inn
               </h3>
@@ -217,7 +221,7 @@
             <a  class="result-item-about" href="#">
               Подробнее
             </a>
-            <button class="result-item-in-favorites">
+            <button class="result-item-in-favorites" type="button">
               В избранное
             </button>
             <div class="result-item-star-wrapper">
@@ -232,7 +236,7 @@
           </li>
           <li class="search-result-item">
             <a class="result-item-link" href="#">
-              <img class="result-item-img" src="#" alt="Вид из GreenTree Inn">
+              <img class="result-item-img" src="images/catalog/hotel-4.jpg" width="300" height="212" alt="Вид из GreenTree Inn">
               <h3 class="result-item-title">
                 GreenTree Inn
               </h3>
@@ -246,7 +250,7 @@
             <a  class="result-item-about" href="#">
               Подробнее
             </a>
-            <button class="result-item-in-favorites">
+            <button class="result-item-in-favorites" type="button">
               В избранное
             </button>
             <div class="result-item-star-wrapper">
@@ -263,7 +267,7 @@
         <ol class="pagination">
           <li >
           <li class="pagination-item">
-            <a class="pagination-link pagination-link_current" href="#">1</a>
+            <a class="pagination-link pagination-link_current">1</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">2</a>
@@ -275,9 +279,9 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <span class="search-poinst">
+            <a class="pagination-link" href="#">
               ...
-            </span>
+            </a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
@@ -311,7 +315,7 @@
       <a class="tel" href="tel:+78128121212">+7(812)812-12-12</a>
       <a class="copyright-link" href="https://htmlacademy.ru/">
         <span class="visually-hidden">Сайт разработан в HTML Academy</span>
-        <img class="copyright-logo" src="" alt="Логотип HTML Academy">
+        <img class="copyright-logo" src="images/logo-html-academy.svg" width="115" height="33" alt="Логотип HTML Academy">
       </a>
     </footer>
   </body>
