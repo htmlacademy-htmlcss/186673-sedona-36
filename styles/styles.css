@@ -226,3 +226,158 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
+.copyright-link {
+  text-decoration: none;
+}
+
+.search-form {
+  background-color: #90acba;
+  background-image: url(../images/catalog-search-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #FFFFFF;
+}
+
+.search-title {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.hotels-form-group {
+  border: 0;
+}
+
+.form-group-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.checkbox-name,
+.radio-name {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.price-from-till {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #000000;
+}
+
+.hotels-submit {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border: 0;
+}
+
+.hotel-reset {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0;
+}
+
+.search-result-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-result-list {
+  list-style: none;
+}
+
+.search-result-item {
+  color: #333333;
+}
+
+.result-item-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.result-item-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.result-item-about,
+.result-item-in-favorites {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.result-item-about {
+  text-decoration: none;
+  background-color: #756157;
+}
+
+.result-item-in-favorites {
+  background-color: #82B3D3;
+  border: 0;
+}
+
+.result-item-rating-star {
+  display: block;
+  width: 18px;
+  height: 17px;
+  background-image: url(../images/icons/icon-star.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.result-item-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.pagination {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  list-style: none;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.pagination-link_current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-link_other {
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: transparent;
+}
